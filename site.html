@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Catálogo de Filmes e Séries</title>
+
+    <!-- TODO: garantir que a pasta css/ existe e o arquivo style.css também -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <div class="container">
+            <h1 class="logo">Series e Filmes </h1>
+
+            <nav>
+                <ul class="menu">
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#series">Séries e Filmes</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Seção destaque -->
+    <section id="inicio" class="secao destaque">
+        <div class="container destaque-conteudo">
+            <div class="destaque-texto">
+                <h2>Tudo do bom e do melhor</h2>
+                <p>series e filmes para sair do basico</p>
+
+                <!-- Filtros visuais de gêneros (não precisam funcionar) -->
+                <div class="filtros">
+                    <!-- TODO: trocar ou adicionar gêneros -->
+                    <button class="filtro">Todos</button>
+                    <button class="filtro">Ação</button>
+                    <button class="filtro">Comédia</button>
+                    <button class="filtro">Drama</button>
+                </div>
+            </div>
+
+            <div class="destaque-imagem">
+                <img src="filme.jpg" alt="Imagem de séries">
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção catálogo de séries -->
+    <section id="series" class="secao secao-cinza">
+        <div class="container-2">
+            <h2> em destaque</h2>
+            <div class="carrosel-series">
+                <div class="grid-series">
+                    <!-- Card 1 -->
+                    <div class="card-serie">
+                        <!-- TODO: trocar os dados da série -->
+                        <img src="https://br.web.img2.acsta.net/c_300_300/medias/nmedia/18/35/23/52/18859351.jpg"
+                            alt="Nome da série">
+                        <h3>O Espanta Tubarões</h3>
+                        <p class="genero" style="color: blue;">Gênero: Animação</p>
+                        <p class="descricao">
+                            <!-- Pequena descrição da série -->
+                            Um peixe se torna celebridade ao fingir ter matado um tubarão da máfia. Aliado ao irmão
+                            vegetariano da "vítima", ele desfruta da fama até que o mafioso Don Lino decide vingar a
+                            morte do filho, ameaçando expor sua mentira e acabar com sua vida.
+                        </p>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="card-serie">
+                        <img src="https://upload.wikimedia.org/wikipedia/pt/9/9b/Carros_p%C3%B4ster.jpg"
+                            alt="Nome da série">
+                        <h3>Carros</h3>
+                        <p class="genero" style="color: blue;">Gênero: Animação, Corrida</p>
+                        <p class="descricao">
+                            Ao viajar para a Califórnia, o famoso carro de corridas Relâmpago McQueen se perde e vai
+                            parar em Radiator Springs, uma cidadezinha na Rota 66. Ele conhece novos amigos e aprende
+                            lições que mudam sua forma de encarar a vida.
+                        </p>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="card-serie">
+                        <img src="https://br.web.img3.acsta.net/medias/nmedia/18/87/32/75/19874355.jpg"
+                            alt="Nome da série">
+                        <h3>Gigantes de Aço</h3>
+                        <p class="genero" style="color: blue;">Gênero: Luta</p>
+                        <p class="descricao">
+                            Em um futuro próximo, as máquinas substituem os homens no ringue. As lutas de boxe acontecem
+                            entre robôs de alta tecnologia. Charlie, um ex-lutador frustrado, decide se juntar ao filho
+                            para construir um competidor imbatível.
+                        </p>
+                    </div>
+
+                    <div class="card-serie">
+                        <!-- TODO: trocar os dados da série -->
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK7a94kgKYjz5G-hgXg8BgF3ntBGpHucgGNA&s"
+                            alt="Nome da série">
+                        <h3>IT Bem Vindos a Derry</h3>
+                        <p class="genero" style="color: blue;">Gênero: Terror, Mistério</p>
+                        <p class="descricao">
+                            <!-- Pequena descrição da série -->
+                            Na década de 1960, eventos estranhos acontecem na cidade de Derry ligados ao palhaço
+                            Pennywise, uma figura misteriosa que assombra o local.
+                        </p>
+                    </div>
+
+                    <div class="card-serie">
+                        <!-- TODO: trocar os dados da série -->
+                        <img src="https://observatoriodocinema.com.br/wp-content/uploads/2023/11/invencivel-poster.jpeg"
+                            alt="Nome da série">
+                        <h3>Invencivel</h3>
+                        <p class="genero" style="color: blue;">Gênero:Super-herói,Ação,Drama</p>
+                        <p class="descricao">
+                            <!-- Pequena descrição da série -->
+                            O pai de Mark Grayson é o super-herói mais poderoso do planeta, Omni-Man. Assim, como ele, o
+                            jovem desperta seus poderes e, junto a uma série de outros campeões, tenta honrar o legado
+                            de seu pai. Mas Omni-Man esconde um segredo sinistro.
+                        </p>
+                    </div>
+
+                    <div class="card-serie">
+                        <!-- TODO: trocar os dados da série -->
+                        <img src="https://levelupnews.com.br/wp-content/uploads/2025/10/img_7352-723x1024.jpg"
+                            alt="Nome da série">
+                        <h3>One Piece</h3>
+                        <p class="genero" style="color: blue;">Gênero: Ação, Aventura, Fantasia</p>
+                        <p class="descricao">
+                            One Piece acompanha as aventuras de Monkey D. Luffy, um jovem que busca o tesouro lendário
+                            homônimo para se tornar o Rei dos Piratas.
+                        </p>
+                        <!-- TODO: opcional - pedir pra criarem mais 2 ou 3 cards -->
+                    </div>
+
+                    <div class="card-serie">
+                        <!-- TODO: trocar os dados da série -->
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS08z1UclJ5V6z3J_NL1tWpdCLdZ6amcUkt2g&s"
+                            alt="Nome da série">
+                        <h3>Fallout</h3>
+                        <p class="genero" style="color: blue;">Gênero: Ficção Cientifica, Aventura</p>
+                        <p class="descricao">
+                            <!-- Pequena descrição da série -->
+                            Duzentos anos após o apocalipse, os habitantes dos luxuosos abrigos radioativos são forçados
+                            a retornar ao universo complexo, estranho e altamente violento que os espera na superfície.
+                        </p>
+                    </div>
+
+                    <div class="card-serie">
+                        <!-- TODO: trocar os dados da série -->
+                        <img src="https://upload.wikimedia.org/wikipedia/pt/a/a3/Dune_2021.jpeg" alt="Nome da série">
+                        <h3>Duna</h3>
+                        <p class="genero" style="color: blue;">Gênero: Aventura, Drama e Fantasia Épica</p>
+                        <p class="descricao">
+                            <!-- Pequena descrição da série -->
+                            Paul Atreides é um jovem brilhante, dono de um destino além de sua compreensão. Ele deve
+                            viajar para o planeta mais perigoso do universo para garantir o futuro de seu povo.
+                        </p>
+                    </div>
+
+                    <div class="card-serie">
+                        <!-- TODO: trocar os dados da série -->
+                        <img src="https://upload.wikimedia.org/wikipedia/pt/5/58/Star_Wars_Epis%C3%B3dio_III_A_Vingan%C3%A7a_dos_Sith.jpg"
+                            alt="Nome da série">
+                        <h3>Star Wars: Episódio III – A Vingança dos Sith</h3>
+                        <p class="genero" style="color: blue;">Gênero: Ficção Científica, Ação, Aventura</p>
+                        <p class="descricao">
+                            <!-- Pequena descrição da série -->
+                            mostra o fim das Guerras Clônicas, a corrupção de Anakin Skywalker pelo Chanceler Palpatine
+                            (Darth Sidious) até se tornar Darth Vader
+                        </p>
+                    </div>
+
+                    <div class="card-serie">
+                        <!-- TODO: trocar os dados da série -->
+                        <img src="https://br.web.img3.acsta.net/pictures/20/09/14/10/31/4875617.jpg"
+                            alt="Nome da série">
+                        <h3>Jujutsu Kaisen</h3>
+                        <p class="genero" style="color: blue;">Gênero: Ação, Terror, Fantasia</p>
+                        <p class="descricao">
+                            <!-- Pequena descrição da série -->
+                            Yuji Itadori, um estudante comum que se envolve com o mundo das Maldições (espíritos
+                            nascidos de emoções negativas humanas) após engolir um dedo amaldiçoado do poderoso demônio
+                            Sukuna, tornando-se um hospedeiro
+                        </p>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section id="sobre" class="secao">
+        <div class="container">
+            <h2>Sobre o catálogo</h2>
+            <p>
+                Projeto de Estudo em HTML e CSS, com algumas recomendações pessoais de filmes e series.
+                <!-- TODO: explicar em 1 ou 2 parágrafos o objetivo do site.
+                     Ex: projeto de estudo de HTML e CSS, recomendações pessoais, etc. -->
+            </p>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato" class="secao secao-cinza">
+        <div class="container">
+            <h2>Contato</h2>
+            <p>Quer enviar sugestões?</p>
+            <ul class="lista-contato">
+                <li><strong>Email: paidoszjunior@gmail.com</strong> <!-- TODO: email fictício ou real --></li>
+                <li><strong>Instagram: @paidoszz</strong> <!-- TODO: @user ou link --></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 - Marcelo. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
