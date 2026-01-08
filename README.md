@@ -1,5 +1,5 @@
 Catálogo de Filmes e Séries
-Este é um projeto de estudo desenvolvido para consolidar conhecimentos em HTML5 e CSS3. O site consiste em uma vitrine de recomendações de filmes e séries com um design moderno, sombrio e responsivo.
+Este é um projeto de estudo desenvolvido para consolidar conhecimentos em HTML e CSS. O site consiste em uma vitrine de recomendações de filmes e séries com um design moderno, sombrio e responsivo.
 
 Sobre o Projeto
 O objetivo deste projeto foi criar uma interface de catálogo (estilo streaming) utilizando apenas tecnologias web fundamentais. O projeto foca em:
